@@ -1,0 +1,185 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	list-style: none;
+	outline: none;
+}
+input{
+	border:0;
+	border-bottom: 1px solid #ccc;
+	font-size: 18px;
+	color: #666;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+.kong{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: #fff;
+	z-index:2;
+}
+.head{
+	width: 100%;
+	height: 50px;
+	padding:10px;
+	box-sizing:border-box;
+	background: rgba(133,23,199,0.3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 3;
+}
+.head li{
+	display: inline-block;
+	background: rgba(255,255,255,0.3);
+	padding: 5px;
+	margin-left: 5px;
+
+}
+.add-li{
+	float: right;
+	margin-right: 5px;
+}
+.container{
+	width: 100%;
+	height:686px;
+	position: absolute;
+	left: 0;
+	top: 50px;
+	overflow-y: auto;
+}
+.container-lb{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.container-lb dt{
+	width: 100%;
+	height: 30px;
+	background: #eee;
+	padding: 5px;
+	color: #000;
+	border-bottom: 1px solid #ccc;
+	box-sizing:border-box;
+}
+.container-lb dd{
+	width: 100%;
+	height:50px;
+	background: #eee;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	box-sizing:border-box;
+	position: relative;
+}
+.fg{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.container-lb h5{
+	font-size: 16px;
+	color: #333;
+}
+.container-lb h6{
+	font-size: 14px;
+	color: #000;
+}
+.list{
+	width: 20px;
+	height: 200px;
+	padding: 5px;
+	position: fixed;
+	margin: auto;
+	bottom: 0;
+	top: 50px;
+	right:0;
+	font-size: 18px;
+	color: #000;
+	background: rgba(255,255,255,0.5);
+	text-align: center;
+}
+.list-ul li{
+	border-bottom: 0;
+}
+.tanchu{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height:100%;
+	background: rgba(0,0,0,0.8);
+	display: none;
+}
+.xinxi{
+	width: 97%;
+	height: 60%;
+	background: #fff;
+	position: absolute;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+}
+.xinxi ul{
+	padding: 10px;
+	box-sizing:border-box;
+}
+.names,.number{
+	height: 30px;
+}
+/*.bianji{
+	display: inline-block;
+	width: auto;
+	height: 20px;
+	padding: 5px;
+	background: rgba(255,255,255,0.3);
+	font-size: 14px;
+	color: #666;
+	text-align: center;
+}*/
+.toux{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border:1px solid #000;
+	margin-top: 20px;
+}
+.names{
+	border-bottom: 1px solid #ccc;
+	font-size: 30px;
+	padding: 5px;
+}
+.number{
+	border-bottom: 1px solid #ccc;
+	font-size: 25px;
+	padding: 10px;
+}
+.beizhu{
+	border-bottom: 1px solid #ccc;
+	font-size: 25px;
+	padding: 10px;
+}
+.button{
+	padding: 5px;
+	display: inline-block;
+	font-size: 14px;
+	color: #666;
+	background: #eee;
+	margin-top: 30px;
+}
+.enter{
+	float: right;
+}
